@@ -19,3 +19,16 @@ snippet ::
 
 snippet =
 	${1:funcName} = ${2:body}
+
+snippet data
+	${1:TypeName} = ${2:Body}
+
+snippet if
+	if ${1:expr}
+	    then ${2:whenTrue}
+	    else ${3:whenFalse}
+
+snippet case
+	case ${1:expr} of
+	    ${2:case1}   -> ${3:body1}
+	    ${4:otherwise} -> ${5:body2}
